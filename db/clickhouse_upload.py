@@ -8,7 +8,7 @@ import pandas as pd
 from clickhouse_driver import Client
 
 from db.db_client import get_client
-from db.db_config import JSN_TABLE_NAME, INCL_TABLE_NAME, CSV_TABLE_NAME, PICKLE_TABLE_NAME
+from db.db_config import JSN_TABLE_NAME, CSV_TABLE_NAME, PICKLE_TABLE_NAME
 from logs.logger_conf import logger
 
 
